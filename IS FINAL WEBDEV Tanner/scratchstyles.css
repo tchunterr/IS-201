@@ -1,0 +1,134 @@
+body{
+    background-color: black;
+
+}
+
+.nav{
+  position: fixed;
+  margin-top: 0;
+  margin-bottom: 0;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.hero-text {
+    color: #fff;
+    padding: 0 1rem 2rem;
+}
+
+.hero-text h1 {
+    font-size: clamp(2rem, 9vw, 8rem);
+    line-height: 1;
+    margin: 0;
+    color: #fff;
+    /* mix-blend-mode: difference; */
+}
+
+
+.video-background {
+    background: #000;
+    position: absolute;
+    inset: 0;
+    z-index: -99;
+}
+
+.video-foreground,
+.video-background iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.hero {
+    position: relative;
+}
+
+.hero .overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, .2);
+}
+
+.hero h1 {
+    color: seashell;
+    font-size: 5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .4);
+}
+
+.hero p {
+    margin: 0;
+}
+
+/* nav bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+
+  }
+  
+  li {
+    margin-left: 25rem;
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    letter-spacing: 1rem;    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  } 
+  .center img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .list{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-type: circle;
+    color: white;
+  }
+  .list li{
+    align-items: center;
+    color: white;
+
+}
+  .listitle{
+    margin-left: 40rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
